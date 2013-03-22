@@ -7,9 +7,9 @@ get '/' do
 end
 
 not_found do
-  haml :not_found_page
+  haml :kosong
 end
 
-get '/about' do
-  haml :about
+get '/tentang' do
+  haml :tentang
 end
